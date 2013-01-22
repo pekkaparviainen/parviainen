@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
 import sys, os
 
-version = '0.1'
+version = '0.0'
 
 setup(name='parviainen',
       version=version,
-      description="Test package for python course",
+      description="",
       long_description="""\
 """,
       classifiers=[], # Get strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers
