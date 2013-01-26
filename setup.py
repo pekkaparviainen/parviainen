@@ -17,10 +17,11 @@ setup(name='parviainen',
       packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
       include_package_data=True,
       zip_safe=False,
-      install_requires=[
+      install_requires=['untangle'
           # -*- Extra requirements: -*-
       ],
       entry_points="""
       # -*- Entry points: -*-
       """,
+      scripts=['scripts/getting_data.py']
       )
