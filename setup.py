@@ -23,5 +23,5 @@ setup(name='parviainen',
       entry_points="""
       # -*- Entry points: -*-
       """,
-      scripts=['scripts/getting_data.py']
+      scripts=['scripts/getting_data.py', 'scripts/check_repo.py']
       )
