@@ -17,7 +17,7 @@ setup(name='parviainen',
       packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
       include_package_data=True,
       zip_safe=False,
-      install_requires=['untangle'
+      install_requires=['untangle', 'requests', 'dateutil', 'pandas'
           # -*- Extra requirements: -*-
       ],
       entry_points="""
